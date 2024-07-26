@@ -19,6 +19,7 @@
       .game-container {
         text-align: center;
         font-size: 2rem;
+        align-items: center;
       }
       .letter-display {
         font-size: 5rem;
@@ -31,12 +32,18 @@
       .btn-restart {
         margin-top: 20px;
       }
+
+      #timer {
+        position: absolute;
+        top: 0px;
+        left: 44%;
+      }
     </style>
   </head>
   <body>
     <div class="container game-container">
       <div class="letter-display" id="letterDisplay">A</div>
-      <div class="score" id="score">Score: 0</div>
+      <div class="score">Score: <span id="score">0</span></div>
       <div class="timer" id="timer">Time: 02:00</div>
       <button class="btn btn-primary btn-restart" id="restartButton">
         Restart
