@@ -1,5 +1,5 @@
 let timer;
-let timeLeft = 120; // Timer set for 2 minutes (120 seconds)
+let timeLeft = 300; // Timer set for 2 minutes (120 seconds)
 
 // Function to start the timer
 function startTimer() {
