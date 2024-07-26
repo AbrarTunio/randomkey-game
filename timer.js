@@ -21,7 +21,7 @@ function startTimer() {
 // Function to restart the game and timer
 function restartGame() {
   clearInterval(timer);
-  timeLeft = 120; // Reset time
+  timeLeft = 300; // Reset time
   gameActive = true; // Enable the game
   startTimer(); // Restart the timer
   currentLetter = getRandomLetter(); // Get a new random letter
