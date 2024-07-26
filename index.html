@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alphabet Game</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: #f8f9fa;
+      }
+      .game-container {
+        text-align: center;
+        font-size: 2rem;
+      }
+      .letter-display {
+        font-size: 5rem;
+        margin-bottom: 20px;
+      }
+      .score,
+      .timer {
+        font-size: 2rem;
+      }
+      .btn-restart {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container game-container">
+      <div class="letter-display" id="letterDisplay">A</div>
+      <div class="score" id="score">Score: 0</div>
+      <div class="timer" id="timer">Time: 02:00</div>
+      <button class="btn btn-primary btn-restart" id="restartButton">
+        Restart
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="timer.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
