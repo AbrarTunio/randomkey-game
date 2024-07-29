@@ -1,5 +1,5 @@
 let timer;
-let timeLeft = 300; // Timer set for 2 minutes (120 seconds)
+let timeLeft = 120; // Timer set for 2 minutes (120 seconds)
 
 // Function to start the timer
 function startTimer() {
@@ -21,7 +21,7 @@ function startTimer() {
 // Function to restart the game and timer
 function restartGame() {
   clearInterval(timer);
-  timeLeft = 300; // Reset time
+  timeLeft = 120; // Reset time
   gameActive = true; // Enable the game
   startTimer(); // Restart the timer
   currentLetter = getRandomLetter(); // Get a new random letter
