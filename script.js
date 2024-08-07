@@ -1,7 +1,7 @@
 // Function to generate a random letter from 'a' to 'z'
 function getRandomLetter() {
   // const letters = "abcdefghijklmnopqrstuvwxyz";
-  const letters = 'asdf;lkjqwerpoiu'
+  const letters = 'asdf;lkj'
   const randomIndex = Math.floor(Math.random() * letters.length);
   return letters[randomIndex];
 }
